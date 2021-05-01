@@ -1,0 +1,237 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+
+/* Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .menu-toggle {
+        display: block;
+        z-index: 99;
+    }
+    .mainmenu {
+        width: 100%;
+        height: 100% auto;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 13px;
+        padding-left: 0;
+        padding-right: 0;
+        transition-property: all;
+        transition: 0.5s;
+        display: none;
+    }
+    .mainmenu li {
+        display: block;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .mainmenu li a {
+        padding-left: 0;
+    }
+    #header-area {
+        background-color: #fff;
+        z-index: 999;
+        position: relative;
+        padding: 12px 0 !important;
+    }
+    #header-area li a {
+        color: #000;
+    }
+    .active {
+        display: block;
+    }
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .about-content {
+        text-align: center;
+        padding-bottom: 0;
+    }
+    .single-experience-item {
+        text-align: center;
+    }
+    h3.section-title {
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .single-work-item {
+        width: 100%;
+    }
+    .single-work-item.double-size {
+        width: 100%;
+    }
+    .maketplace-links {
+        height: 210px;
+        justify-content: space-around;
+    }
+    .footer-top {
+        text-align: center;
+    }
+    h4.footer-title:after {
+        left: 23vw;
+    }
+    #footer-section .social-links h4.footer-title {
+        margin-top: 0;
+    }
+    .section-padding {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .is-sticky {
+        padding: 10px 0 !important;
+    }
+    .about-image img {
+        max-width: 280px;
+        max-height: 280px;
+    }
+    section#contact-section {
+        display: block;
+        height: 100%;
+    }
+    #contact-section .video-wrapper {
+        display: none;
+        visibility: hidden;
+    }
+    #about-section .single-target-box {
+        text-align: center;
+    }
+    #about-section .boxed-content {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    #footer-section .about-widget {
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    p.getInTouch-icon i.fa,
+    p.getInTouch-icon i.fab {
+        left: 30%;
+    }
+}
+
+
+/* Extra Small Device */
+
+@media only screen and (min-width: 240px) and (max-width: 479px) {
+    .about-image img {
+        height: 250px;
+        width: 250px;
+    }
+    .social-links li {
+        margin-right: 5px;
+    }
+    .social-links {
+        margin-top: 15px;
+        padding-top: 20px;
+    }
+    .social-links li a {
+        font-size: 15px;
+        height: 30px;
+        width: 30px;
+        line-height: 25px;
+    }
+    .hero-content h1 {
+        font-size: 25px;
+    }
+    .hero-content h4 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .menu-toggle {
+        display: block;
+        z-index: 99;
+    }
+    .mainmenu {
+        width: 100%;
+        height: 100% auto;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        top: 18px;
+        padding-left: 0;
+        padding-right: 0;
+        transition-property: all;
+        transition: 0.5s;
+        display: none;
+    }
+    .mainmenu li {
+        display: block;
+        margin-top: 0;
+        margin-left: 0;
+        padding: 10px 0;
+    }
+    .mainmenu li a {
+        padding-left: 0;
+    }
+    #header-area {
+        background-color: #fff;
+        z-index: 999;
+    }
+    #header-area li a {
+        color: #000;
+    }
+    .active {
+        display: block;
+    }
+    h3.section-title:after {
+        opacity: 0;
+        visibility: hidden;
+    }
+    h3.section-title {
+        margin-bottom: 25px;
+    }
+    h4.footer-title {
+        margin-top: 25px;
+    }
+    #footer-section .social-links h4.footer-title {
+        margin-top: 0;
+    }
+    .section-padding {
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    .is-sticky {
+        padding: 20px 0 !important;
+    }
+    .single-work-item.double-size,
+    .single-work-item {
+        width: 100%;
+    }
+    section#contact-section {
+        display: block;
+        height: 100%;
+    }
+    #about-section .single-target-box {
+        text-align: center;
+    }
+    #about-section .boxed-content {
+        margin-bottom: 30px;
+        margin-right: 0;
+    }
+    #contact-section .video-wrapper {
+        display: none;
+        visibility: hidden;
+    }
+    #footer-section .about-widget {
+        border-right: none;
+        padding-right: 0;
+        margin-right: 0;
+    }
+    p.getInTouch-icon i.fa,
+    p.getInTouch-icon i.fab {
+        left: 30%;
+    }
+}
