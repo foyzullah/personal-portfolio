@@ -377,7 +377,7 @@ a.get-resume {
 }
 
 img.about-image {
-    width: 350px;
+    width: 100%;
     border: 1px solid #8cc6ff;
     background-color: #fff;
     padding: 5px;
@@ -697,6 +697,7 @@ button.view-btn {
 
 .modal-body-content img{
   width: 100%;
+  margin-bottom: 20px;
 }
 .modal-body-content .project-title {
   font-size: 25px;

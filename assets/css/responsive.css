@@ -5,7 +5,18 @@
 
 /* Tablet Layout: 768px. */
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .single-marketplace-logo img{
+    max-width: 110px;
+  }
+
+.mainmenu li {
+    margin-left: 15px;
+}
+a.resume-btn{
+  padding: 10px 15px;
+}
+}
 
 
 /* Mobile Layout: 480px. */
@@ -232,6 +243,31 @@
     }
     p.getInTouch-icon i.fa,
     p.getInTouch-icon i.fab {
-        left: 30%;
+        left: 20%;
     }
+    .single-marketplace-logo {
+      margin-bottom: 40px;
+  }
+  .maketplace-links {
+    flex-direction: column;
+  }
+  .single-marketplace-logo img{
+    max-width: 120px;
+  }
+  h3.section-title {
+    text-align: center;
+  }
+  .footer-top{
+    text-align: center;
+  }
+  h4.footer-title:after{
+    width: 100%;
+  }
+  a.get-resume{
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .single-experience-item{
+    text-align: center;
+  }
 }
