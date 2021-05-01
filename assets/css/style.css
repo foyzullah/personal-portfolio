@@ -356,6 +356,19 @@ h3.section-title span {
     margin-top: 25px;
 }
 
+a.get-resume {
+  border: 1px solid;
+  border-color: rgba(202, 201, 201, 0.507);
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 0 5px;
+  font-size: 18px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
 
 /*----------------------------------About----------------------------- */
 
@@ -390,13 +403,18 @@ img.about-image {
     line-height: 22px;
     padding: 10px;
     margin-top: 35px;
+    text-align: justify;
 }
 
 a.resume-btn {
     text-transform: uppercase;
     display: inline-block;
     font-weight: 700;
-    color: #8cc6ff;
+    color: #fff;
+    background-color: #3f3697;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
 }
 
 .target-table {
@@ -959,6 +977,10 @@ h4.footer-title span {
 #footer-section .quick-links li {
     display: block;
     margin-bottom: 5px;
+    transition: .5s;
+}
+#footer-section .quick-links li:hover{
+  margin-left: 3px;
 }
 
 #footer-section .quick-links li:last-child {
