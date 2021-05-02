@@ -1,6 +1,6 @@
 <?php
 
-if ( isset( $_POST['sndmsg'] ) ) {
+if ( isset( $_POST['sendmsg'] ) ) {
     $to = 'foyz.freelance@gmail.com';
     $mail_sub = 'Mail for project discussion';
 
