@@ -537,6 +537,12 @@ p.check-icon i.fas {
     margin-right: 5px;
     font-size: 10px;
 }
+.single-experience-item i{
+  transition: .3s;
+}
+.single-experience-item i:hover{
+  transform: scale(1.03);
+}
 
 
 /* ---------------------Project-------------------------- */

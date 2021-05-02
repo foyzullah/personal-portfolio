@@ -160,6 +160,10 @@ a.resume-btn{
         font-size: 15px;
         margin-top: 15px;
     }
+    .hero-content {
+        max-width: 100%;
+        text-align: center;;
+    }
     .menu-toggle {
         display: block;
         z-index: 99;
@@ -196,6 +200,7 @@ a.resume-btn{
     }
     .active {
         display: block;
+        border-bottom: 1px solid
     }
     h3.section-title:after {
         opacity: 0;
@@ -231,6 +236,9 @@ a.resume-btn{
     #about-section .boxed-content {
         margin-bottom: 30px;
         margin-right: 0;
+    }
+    .about-content{
+      text-align: center;
     }
     #contact-section .video-wrapper {
         display: none;
